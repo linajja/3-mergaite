@@ -11,11 +11,11 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://github.com/linajja/3-mergaite
 
-Design: [Mergaite](https://cdn.discordapp.com/attachments/648536139677958156/648860542743740428/404-Web-Page-Design-Examples-6.png)
+Design: [Mergaite](https://cdn.discordapp.com/attachments/850245533838868480/850246211415834634/unknown.png)
 
 ## Project features
 
-- Github pages
+- Github pages 
 - CSS
 - Image
 
