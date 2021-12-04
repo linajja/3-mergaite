@@ -14,34 +14,83 @@
 <meta name="theme-color" content="#ffffff">
 <style>
     body {
+        background-color: #f8f8f8;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     main {
         display: inline-block;
         width: 800px;
-        margin-left: calc(50% - 400px);
+        margin-left: calc((100% - 800px) / 2);
     }
     header {
         display: inline-block;
         width: 100%;
         margin-top: 20px;
     }
-    img {
+    header > img {
         float: left;
-        
-
+        height: 50px;
     }
     nav {
         float: right;
-        margin-top: 15px;
+        margin-top: 7px;
     }
     a {
+        display: inline-block;
+        float: left;
         text-decoration: none;
-        color: #9F9F9F;
+        color: #9e9e9e;
         font-size: 20px;
         line-height: 20px;
-        margin-left: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding: 3px solid transparent;
+        border-radius: 18px;
+        
+    a +  a {
+       /* margin-left: 5px; */
+    }    
+    a:last-child {
+        border-color: #9e9e9e;
+        text-transform: uppercase;
+        margin-left: 25px;
     }
+
+    a:hover {
+        color: #8ac069;
+        text-decoration: underline;
+    }
+    section {
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+}
+
+div {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+    color: #9e9e9e;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+}
+
+section > img {
+    float: right;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
     
 </style>
 
@@ -61,14 +110,10 @@
         </header>
         <section>
            <div>
-            <h1>404</h1>
-            <p>The link is broken or the page has been moved.</p>
-            <p style="
-            font-size: 20px;
-            line-height: 29px;">
-            </p>
+             <h1>404</h1>
+             <p>The link is broken or the page has been moved.</p>
            </div>
-           <img src="#" alt="Mergaite sy liudnu veideliu">
+           <img src="#" alt="Mergaite su liudnu veideliu">
         </section>
     </main>
 </body>
